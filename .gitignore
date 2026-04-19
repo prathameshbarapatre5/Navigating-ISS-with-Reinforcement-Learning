@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.env/
+.venv/
+
+# Intermediate model checkpoints — keep only final models
+ISSNav/models/ppo_issnav_[0-9]*_steps.zip
+ISSNav/models/sac_issnav_[0-9]*_steps.zip
+ISSNav/models/best_model.zip
+ISSNav_Ext/models/ppo_v1_issnav_[0-9]*_steps.zip
+ISSNav_Ext/models/sac_v1_issnav_[0-9]*_steps.zip
+ISSNav_Ext/models/best_model.zip
+
+# TensorBoard event files
+ISSNav/logs/ppo/PPO_1/
+ISSNav/logs/sac/SAC_1/
+ISSNav_Ext/logs/ppo_v1/PPO_1/
+ISSNav_Ext/logs/sac_v1/SAC_1/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user

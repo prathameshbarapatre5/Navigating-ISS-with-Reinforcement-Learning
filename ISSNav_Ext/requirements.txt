@@ -1,0 +1,23 @@
+# ISSNav-v1 (Phase 2) — Python Dependencies
+# Tested on Python 3.11 | Windows 11
+# Install: pip install -r requirements.txt
+
+# Core RL
+gymnasium==0.29.1
+stable-baselines3==2.3.2
+torch>=2.0.0                  # CPU version sufficient; GPU optional
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+opencv-python>=4.8.0
+
+# Monitoring
+tensorboard>=2.13.0
+
+# Utilities
+imageio>=2.31.0
+tqdm>=4.65.0
